@@ -42,10 +42,10 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <form class="form" method="" action="#">
               <div class="card card-login card-hidden">
-                <div class="card-body p-3 text-center">
+                <div class="card-body p-3 text-center card-lp">
                   <p class="mb-0 icon-app-lp"><i class="material-icons">people_outline</i></p>
                   <p class="card-description h3 font-weight-bold mt-2">Aplikasi</p>
-                  <p class="link-app-lp"><a href="" >Data Kepegawaian</a></p>
+                  <p class="link-app-lp"><a href="#">Data Kepegawaian</a></p>
                 </div>
               </div>
             </form>
@@ -54,10 +54,10 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <form class="form" method="" action="#">
               <div class="card card-login card-hidden">
-                <div class="card-body p-3 text-center">
+                <div class="card-body p-3 text-center card-lp">
                   <p class="mb-0 icon-app-lp"><i class="material-icons">mail_outline</i></p>
                   <p class="card-description h3 font-weight-bold mt-2">Aplikasi</p>
-                  <p class="link-app-lp"><a href="" >Pengelolaan Surat</a></p>
+                  <p class="link-app-lp"><a href="#">Pengelolaan Surat</a></p>
                 </div>
               </div>
             </form>

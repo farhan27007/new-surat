@@ -214,9 +214,13 @@ table.dataTable thead>tr>td.sorting, table.dataTable thead>tr>td.sorting_asc, ta
   font-size:50px;color:#1a1a2e;
 }
 .link-app-lp {
- font-size:15.5px;
+   font-size:15.5px;
 }
 .link-app-lp > a {
   color: #ec407a;
+}
+.card-lp:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 /* css baru untuk landing page */
