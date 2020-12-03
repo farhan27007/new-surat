@@ -208,3 +208,15 @@ table.dataTable thead>tr>td.sorting, table.dataTable thead>tr>td.sorting_asc, ta
     background: linear-gradient(60deg,#ec407a,#d81b60);
 }
 /* scroll for datatable */
+
+/* css baru untuk landing page */
+.icon-app-lp > i {
+  font-size:50px;color:#1a1a2e;
+}
+.link-app-lp {
+ font-size:15.5px;
+}
+.link-app-lp > a {
+  color: #ec407a;
+}
+/* css baru untuk landing page */
