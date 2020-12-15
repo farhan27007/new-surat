@@ -211,13 +211,13 @@ table.dataTable thead>tr>td.sorting, table.dataTable thead>tr>td.sorting_asc, ta
 
 /* css baru untuk landing page */
 .icon-app-lp > i {
-  font-size:50px;color:#1a1a2e;
+  font-size:50px;color:#fff;
 }
 .link-app-lp {
    font-size:15.5px;
 }
 .link-app-lp > a {
-  color: #ec407a;
+  color: #000;
 }
 .card-lp:hover {
   transform: scale(1.05);

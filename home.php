@@ -42,10 +42,11 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <form class="form" method="" action="#">
               <div class="card card-login card-hidden">
-                <div class="card-body p-3 text-center card-lp">
-                  <p class="mb-0 icon-app-lp"><i class="material-icons">people_outline</i></p>
-                  <p class="card-description h3 font-weight-bold mt-2">Aplikasi</p>
-                  <p class="link-app-lp"><a href="#">Data Kepegawaian</a></p>
+                <div class="card-body  text-center p-0">
+                  <div class="" style="background: #6a197d;border-radius: 5px 5px 10px 10px;">
+                    <p class="icon-app-lp pt-4 pb-3"><i class="material-icons">people_outline</i></p>
+                  </div>
+                  <p class="link-app-lp card-lp"><a href="#">Aplikasi Data Kepegawaian</a></p>
                 </div>
               </div>
             </form>
@@ -54,35 +55,36 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <form class="form" method="" action="#">
               <div class="card card-login card-hidden">
-                <div class="card-body p-3 text-center card-lp">
-                  <p class="mb-0 icon-app-lp"><i class="material-icons">mail_outline</i></p>
-                  <p class="card-description h3 font-weight-bold mt-2">Aplikasi</p>
-                  <p class="link-app-lp"><a href="#">Pengelolaan Surat</a></p>
+                <div class="card-body  text-center p-0">
+                 <div class="" style="background: #6a197d;border-radius: 5px 5px 10px 10px;">
+                  <p class="icon-app-lp pt-4 pb-3"><i class="material-icons">mail_outline</i></p>
                 </div>
+                <p class="link-app-lp card-lp"><a href="#">Aplikasi Pengelolaan Surat</a></p>
               </div>
-            </form>
-          </div>
-
+            </div>
+          </form>
         </div>
-      </div>
 
+      </div>
     </div>
+
   </div>
-  <!--   Core JS Files   -->
-  <script src="assets/js/core/jquery.min.js"></script>
-  <script src="assets/js/core/popper.min.js"></script>
-  <script src="assets/js/core/bootstrap-material-design.min.js"></script>
-  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <script src="assets/js/material-dashboard.min1c51.js?v=2.1.2" type="text/javascript"></script>
-  
-  <script>
-    $(document).ready(function() {
-      md.checkFullPageBackgroundImage();
-      setTimeout(function() {
+</div>
+<!--   Core JS Files   -->
+<script src="assets/js/core/jquery.min.js"></script>
+<script src="assets/js/core/popper.min.js"></script>
+<script src="assets/js/core/bootstrap-material-design.min.js"></script>
+<script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+<script src="assets/js/material-dashboard.min1c51.js?v=2.1.2" type="text/javascript"></script>
+
+<script>
+  $(document).ready(function() {
+    md.checkFullPageBackgroundImage();
+    setTimeout(function() {
         // after 1000 ms we add the class animated to the login/register card
         $('.card').removeClass('card-hidden');
       }, 700);
-    });
-  </script>
+  });
+</script>
 </body>
 </html>
